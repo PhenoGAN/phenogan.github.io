@@ -1,28 +1,20 @@
 ---
 layout: home
 title: Home
-landing-title: 'Rob Phillips Group'
-subtitle: "Physical Biology of the Cell"
+landing-title: 'PhenoGAN'
+subtitle: "Spatio-temporal generation of morphological Plant features for yield prediction before harvest from Visual Image input using Progressively Growing GANs"
 permalink: /index.html
 description:
 image: null
 author: null
 ---
 
-
-
-Welcome to the Rob Phillips Physical Biology Laboratory! Research in our
-group focuses on the development of quantitative, theoretical models to
-describe a broad range of biological phenomena. We then use these models to
-guide our experimental efforts, where we perform precision measurements to
-explore the validity of our predictions. Our group has graduate students
-from across campus including <a href="http://www.bbe.caltech.edu">Biology and
-Bioengineering</a>, <a href="http://www.cce.caltech.edu/content/biochemistry-and-molecular-biophysics">Biochemistry and Molecular
-Biophysics</a>, <a href="http://www.aphms.caltech.edu">
-Applied Physics</a>, and
-<a href="http://www.pma.caltech.edu/content/physics">Physics</a>. Some of our current
-principal research threads focus on broad questions of how genomes are
-organized both in sequence and spatially to regulate the expression of
-their genes, how the flow of energy through biological systems gives rise
-to their impressive fidelity, and questions on the diversity and ecological
-role of viruses in their natural environments.
+Recent Innovations in Precision Agriculture (PA) are driven by Computer Vision and Data Processing systems to quantify plant parameters. Quantitative analysis of Plant Phenotyping in PA and monitoring morphological traits is a protracting process, precluding the objective and phenotyping pipeline. Computer
+Vision and Generative Adversarial Networks (GAN)’s offer a catalytic approach to the time-consuming
+process, providing a solution to the phenotyping bottleneck. This research proposes a concept of curating
+data of plant growth over time to predict conditional growth and responsive stimuli of the plant under
+different situations and how this can affect crop yield. The method proposed here is a non-invasive approach to the existing destructive biomass estimation methods and Frameworks. This methodology of the
+research focuses on utilizing image parameters modelled using a time series Progressively Growing Generative Adversarial Networks PGGAN to map plant growth patterns and progressive variance in biomass of
+plant in the Spatio-Temporal Domain. These Generative networks evaluate and predict based on merely
+raw pixel input excluding dependence on further constraints, feature vectors or parameters influencing
+data.
