@@ -5,53 +5,88 @@ image: assets/images/research_new.jpg
 permalink: research/index.html
 ---
 
-<p align="center">
-  <img width="422" height="223" src="/assets/img/publications/CoEx/teaser.png" data-zoomable>
-  <p style="margin: 0 auto; font-size:0.8em; text-align:center ; max-width: 70%;">
-D1-all% error on KITTI stereo 2015 leaderboard vs. frame rate. Our proposed method CoEx, shown in the red star, achieve competitive performance compared to other state-of-the-art models while also being real-time.</p>
-</p>
+## PhenoGAN - Spatio-temporal generation of morphological Plant features for yield prediction before harvest from Visual Image input using Progressively Growing GANs
+
+![header-research](https://user-images.githubusercontent.com/99654398/153884838-f6be4ba1-fe8d-4865-90a1-33bc3399b66c.png)
+
+
 
 ## Abstract
 
 <span style="font-size:0.9em;">
-Volumetric deep learning approach towards stereo
-matching aggregates a cost volume computed from input left
-and right images using 3D convolutions. Recent works showed
-that utilization of extracted image features and a spatially
-varying cost volume aggregation complements 3D convolutions.
-However, existing methods with spatially varying operations
-are complex, cost considerable computation time, and cause
-memory consumption to increase. In this work, we construct
-[Guided Cost volume Excitation (GCE)](#gce) and show that simple channel excitation of cost volume guided by image can
-improve performance considerably. Moreover, we propose a
-novel method of using [top-k](#top-k-soft-argmin-disparity-regression) selection prior to soft-argmin
-disparity regression for computing the final disparity estimate.
-Combining our novel contributions, we present an end-to-end
-network that we call [Correlate-and-Excite (CoEx)](#coex-overall-architecture). Extensive
-experiments of our model on the SceneFlow, KITTI 2012,
-and KITTI 2015 datasets demonstrate the effectiveness and
-efficiency of our model and show that our model outperforms
-other speed-based algorithms while also being competitive to
-other state-of-the-art algorithms
+Recent Innovations in Precision Agriculture (PA) are driven by Computer Vision and Data Processing systems to quantify plant parameters. Quantitative analysis of Plant Phenotyping in PA and monitoring morphological traits is a protracting process, precluding the objective and phenotyping pipeline. Computer
+Vision and Generative Adversarial Networks (GAN)’s offer a catalytic approach to the time-consuming
+process, providing a solution to the phenotyping bottleneck. This research proposes a concept of curating
+data of plant growth over time to predict conditional growth and responsive stimuli of the plant under
+different situations and how this can affect crop yield. The method proposed here is a non-invasive approach to the existing destructive biomass estimation methods and Frameworks. This methodology of the
+research focuses on utilizing image parameters modelled using a time series Progressively Growing Generative Adversarial Networks PGGAN to map plant growth patterns and progressive variance in biomass of
+plant in the Spatio-Temporal Domain. These Generative networks evaluate and predict based on merely
+raw pixel input excluding dependence on further constraints, feature vectors or parameters influencing
+data.
 </span>
 <p style="margin: 0 auto; font-size:0.9em; text-align:left ; " markdown="1">
-\[[Paper]()\] &nbsp; \[[Code](https://github.com/antabangun/coex)\] 
   </p>
 
 <br>
 
-## Contributions
+## Problem Statement
 
-- <span style="font-size:0.9em;">We present Guided Cost volume Excitation (GCE) to utilize extracted feature map from image as guidance for cost aggregation to improve performance.</span>
-- <span style="font-size:0.9em;">We propose a new method of disparity regression in place of soft-argmax(argmin) to compute disparity from the top-k matching cost values and show that it reliably improves performance.</span>
-- <span style="font-size:0.9em;">Through these methods, we build a real-time stereo matching network CoEx, that outperforms other speedoriented methods and shows its competitiveness when compared to state-of-the-art models.</span>
+<span style="font-size:0.9em;">
+Phenomics is the systematic study of phenotypes coined by
+Steven A. Garan et al. as emerging transdisciplinarity dedi-
+cated to the systematic study of phenotypes on a genome-wide
+scale. From decades quantifiable phenotyping and assessing
+parameters presented invasive methods and techniques. This
+task to a lot extent, was manual and hindered accurate as well
+as time-efficient measurement and assessment. All these ap-
+proaches arguably present one common interdisciplinary goal,
+i.e increasing phenotyping throughput and maximizing yield
+quantitatively. However such approaches survey crops and
+present data analysis delayed enough to not procure any room
+for yield maximization. Multiple different approaches have
+claimed to observe and analyze crop parameters over complete
+growth period and establish a fine relation between temporal
+and yield estimation patterns, but such proposed methods ob-
+tain results over a large set of data points, generalized over a
+specific factor.
+</span>
+<p style="margin: 0 auto; font-size:0.9em; text-align:left ; " markdown="1">
+  </p>
 
-## CoEx overall architecture
+<br>
 
-<p align="center">
-  <img width="772" height="231" src="/assets/img/publications/CoEx/coex_overall.png" title="CoEx overall architecture" data-zoomable>
-  <p style="margin: 0 auto; font-size:0.8em; text-align:center ; max-width: 70%;"></p>
-</p>
+
+
+##  Importance and Relevance
+
+
+<span style="font-size:0.9em;">
+Greenhouses growing Genetically Modified (GM) crops need to
+be maintained at constant environmental and simulated condi-
+tions. Multiple parameters have to be controlled and regulated
+inside a greenhouse for effective growth of crops and yield max-
+imisation. Not at all times are these factors derived and so,
+yield maximisation in greenhouse is an experimental approach
+to new varieties. For deduced environmental parameters and
+conditions for certain crops, few other biotic and abiotic factors
+can hinder or affect growth in certain ways that are not always
+factored in during calculating parameters conducive for plant
+growth. Such factors may not always be affecting parametral
+calculations, but transpose visual cues on plant growth environ-
+ment such as spectral change in soil values, or minute changes
+like leaf reflectance or visible changes in plant stimuli to biotic
+factors. Plant growth is inclusive of multiple environmental
+variables, and yield maximisation approaches are experimen-
+tal to finding the optimum derived value for these variables.
+Computer Vision provides a catalytic approach to predicting
+optimum parameters for yield maximization in phenomics.
+</span>
+<p style="margin: 0 auto; font-size:0.9em; text-align:left ; " markdown="1">
+  </p>
+
+<br>
+
+
 
 ### GCE
 
