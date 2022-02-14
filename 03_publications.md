@@ -27,3 +27,20 @@ permalink: publications/index.html
   <img src="https://user-images.githubusercontent.com/99654398/153904872-a6e0c091-0848-4c6e-8ad5-b8ad8dc24eaf.gif" />
   <img src="https://user-images.githubusercontent.com/99654398/153904912-469a6595-2be5-4818-9d9e-dcaef0bb56dc.gif" />
 </p>
+
+
+## Conferences and Explanation Videos - 
+
+### NAPPN Fast forward talk Feb 2022 on PhenoGAN
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pc2ooKUiEYQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### A short explanation on PhenoGAN
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4uug8WivFF0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### TinyML Asia Poster Conf. on previous work on Plant Phenotyping
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GSRUVVYXcRw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+
+
