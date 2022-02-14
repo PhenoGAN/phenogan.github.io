@@ -10,7 +10,7 @@ permalink: publications/index.html
 <script src="https://gist.github.com/dhruvsheth-ai/22ef9f8955bc701cb39841105898e877.js"></script>
 
 
-### How do Generated outputs look like on Beta Vulgaris and Arabidopsis Thaliana dataset on PhenoGAN framework? Red outline shows generated frames for black outlined inout frames.
+### How do Generated outputs look like on Beta Vulgaris and Arabidopsis Thaliana dataset on PhenoGAN framework? Red outline shows generated frames for black outlined input frames.
 
 ## Beta Vulgaris
 <p float="left">
